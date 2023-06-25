@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #2B2B2B;
+  background-color: rgb(43,43,43);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
