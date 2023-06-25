@@ -22,7 +22,6 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  background-color: #2B2B2B;
   margin: 225px 425px;
   display: flex;
   flex-direction: column;
@@ -35,7 +34,6 @@ body {
 /* Portfolio Header */
 
 #portfolio-header {
-  background-color: #2B2B2B;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -66,14 +64,12 @@ body {
 /* About Section */
 
 #about-section {
-  background-color: #2B2B2B;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
 .about-section-content {
-  background-color: #2B2B2B;
   display: flex;
   flex-direction: column;
   gap: 34px;
