@@ -1,5 +1,5 @@
 body {
-  background-color: #2B2B2B;
+  background-color: #0e1117;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
 }
@@ -49,4 +49,10 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+}
+
+a:link {
+  color: #8f72e8;
+  background-color: transparent;
+  text-decoration: none;
 }
