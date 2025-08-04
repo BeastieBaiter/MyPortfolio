@@ -29,7 +29,7 @@
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
         <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">João Pedro Pamplona - Game Developer Portofolio</span>
+        <span class="nav-title">João Pedro Pamplona - Game Developer Portfolio</span>
          <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
         <a id="email-link" class="button">
           <span class="button-text">Contact Me</span>
@@ -96,10 +96,15 @@
             an indie story-driven turn-based RPG game, with the goal of launching it commercially. 
               For this game I’m working as the Combat Gameplay Designer and UI programmer.</p>
           </div>
-          <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" download style="align-self: center">
-            <span class="button-text">Download CV</span>
-            <image src="./assets/icons/download.svg" class="right-arrow-icon"/>
-          </a>
+          <div id="cv_btn_container" class="projects-container" style="align-self: center">
+            <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" style="align-self: center">
+              <span class="button-text">Online CV</span>
+            </a>
+            <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" download style="align-self: center">
+              <span class="button-text">Download CV</span>
+              <image src="./assets/icons/download.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -132,7 +137,13 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-            <img src="./assets/images/Our%20Will.png" class="project-image">
+            <div class="project-preview-collage">
+              <img src="./assets/images/twa/TWA-Cover.png"/>
+              <img src="./assets/images/hpv/HPV-Cover.png"/>
+              <img src="./assets/images/r4u/R4U-Cover.png"/>
+              <img src="./assets/images/ow/OW-Cover.png"/>
+              <img src="./assets/images/dnd/DND-Cover.png"/>
+            </div>
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Game Design</div>
               <div class="body-text project-card-text">
@@ -145,7 +156,11 @@
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/Rooting4U.png" class="project-image">
+            <div class="project-preview-collage">
+              <img src="./assets/images/Our%20Will.png"/>
+              <img src="./assets/images/Cape%20of%20Storms.png"/>
+              <img src="./assets/images/Rooting4U.png"/>
+            </div>
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Game Programming</div>
               <div class="body-text project-card-text">Here you'll find most noteworthy projects I've had the pleasure of bring to life

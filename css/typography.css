@@ -57,3 +57,6 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
+a:visited {
+  color: #5d4997; /* lighter version of #8f72e8 */
+}
