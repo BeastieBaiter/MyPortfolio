@@ -7,7 +7,7 @@ if (document.getElementById('my-work-link')) {
 const EMAIL = "pamplona1999@gmail.com";
 const SOCIAL_LINKS = {
     itch: "https://beastiebaiter.itch.io/",
-    twitter: "https://x.com/Beastie_baiterlink",
+    twitter: "https://x.com/Beastie_baiter",
     instagram: "https://instagram.com/yourhandle",
     linkedin: "www.linkedin.com/in/joão-pedro-pamplona-4a025a253"
 };
