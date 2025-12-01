@@ -25,388 +25,389 @@
 		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">João Pedro Pamplona - Game Developer Portfolio</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a id="email-link" class="button">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
-    </div>
-
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <!-- 
-            TODO
-
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
-          -->
-          <img src="./assets/images/profile.png" class="portfolio-header-image">
-          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
-            <span class="image-caption"></span>
+        <!-- NAVBAR -->
+        <div class="navbar">
+          <a class="nav-title-link" href="./index.html">
+            <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+            <span class="nav-title">João Pedro Pamplona - Game Developer Portfolio</span>
+             <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+            <a id="email-link" class="button">
+              <span class="button-text">Contact Me</span>
+            </a>
           </a>
         </div>
-
-          <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hi! I’m João Pedro Pamplona</span>
-              <div class="body-text">I’m an indie game developer who feels enjoyment and fulfilment in creating and designing video games and I’ve been making games since 2019.</div>
-            </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my work!</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
-      </div>
-
-      <!-- ABOUT SECTION -->
-      <!-- 
-        TODO
-
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
-      -->
-      <div id="about-section">
-        <span class="subheader-text">About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">
-            <p>I took a Bachelor's degree in Computer Science Engineering at <a href=”https://www.fct.unl.pt/”>NOVA School of Science and Technology | FCT NOVA</a>, and
-            I'm currently taking a master’s degree in Computer Science with specializtion in videogames at <a href=”https://tecnico.ulisboa.pt/pt/”>Instituto Superior de Técnico</a>.</p>
-            <p>I'm actively involved in the videogame developer community, such as the youth association <a href="https://gamedev.tecnico.ulisboa.pt/">GameDev Técnico</a> (GDT),
-            where I’m part of the executive production team, where my duties entail finding, presenting,
-            and producing interesting game jams for the members and creating/managing the teams that participate in
-            those game jams.
-            <br>I’m also currently developing, <a href="">Our Will</a>, 
-            an indie story-driven turn-based RPG game, with the goal of launching it commercially. 
-              For this game I’m working as the Combat Gameplay Designer and UI programmer.</p>
-          </div>
-          <div id="cv_btn_container" class="projects-container" style="align-self: center">
-            <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" style="align-self: center">
-              <span class="button-text">Online CV</span>
-            </a>
-            <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" download style="align-self: center">
-              <span class="button-text">Download CV</span>
-              <image src="./assets/icons/download.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- PROJECTS / MY WORK SECTION -->
-
-        
-      <div id="my-work-section" style="padding-top: 100px; margin-top: -100px;">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text" style="display: block;">My Work</span>
-        <!-- Filter Buttons -->
-        <div class="filter-container">
-            <button class="filter-button all-button active" data-filter="all">All Projects</button>
-            <button class="filter-button" data-filter="producing">Producing</button>
-            <button class="filter-button" data-filter="game-design">Game Design</button>
-            <button class="filter-button" data-filter="game-programming">Game Programming</button>
-            <button class="filter-button" data-filter="level-design">Level Design</button>
-        </div>
-        <div class="projects-container" style="padding-bottom: 50px">
-          <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+    
+        <!-- MAIN PAGE CONTENT -->
+        <div id="main-content">
+    
+          <!-- PORTFOLIO HEADER -->
+          <div id="portfolio-header">
+            <div id="portfolio-header-image-container">
+              <!-- 
+                TODO
+    
+                - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+                - Change the number to point to your Unemployable & replace the OpenSea link with your own
+                - If you aren't using an Unemployable as your image, remove the entire "a" element
+              -->
+              <img src="./assets/images/profile.png" class="portfolio-header-image" alt="">
+              <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+                <span class="image-caption"></span>
               </a>
             </div>
-
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-                
-          <div class="project-card">
-            <div class="project-preview-collage">
-              <img src="./assets/images/twa/TWA-Cover.png"/>
-              <img src="./assets/images/hpv/HPV-Cover.png"/>
-              <img src="./assets/images/r4u/R4U-Cover.png"/>
-              <img src="./assets/images/ow/OW-Cover.png"/>
-              <img src="./assets/images/dnd/DND-Cover.png"/>
+    
+              <!-- 
+                TODO
+    
+                - Change the main-title to whatever you want
+                - Change the body-text after that to a quick introduction to what you do
+                - Edit the button text if you feel like it. It will link to the projects section below.
+              -->
+            <div id="portfolio-header-text-container">
+                <div class="header-text">
+                  <span class="main-title">Hi! I’m João Pedro Pamplona</span>
+                  <div class="body-text">I’m an indie game developer who feels enjoyment and fulfilment in creating and designing video games, and I’ve been making games since 2019.</div>
+                </div>
+                <a class="button" id="my-work-link">
+                  <span class="button-text">Check out my work!</span> 
+                  <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon" alt=""/>
+                </a>
             </div>
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Game Design</div>
-              <div class="body-text project-card-text">
-                Explore my work in game design, from crafting engaging mechanics and systems,
-                to shaping worlds and player experiences.</div>
-            </div>
-            <a class="button" href="./project-pages/game-design.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
           </div>
-          <div class="project-card" >
-            <div class="project-preview-collage">
-              <img src="./assets/images/pigeon/pigeon-Cover.png"/>
-              <img src="./assets/images/twa/TWA-Cover.png"/>
-              <img src="./assets/images/hpv/HPV-Cover.png"/>
-              <img src="./assets/images/r4u/R4U-Cover.png"/>
-            </div>
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Game Programming</div>
-              <div class="body-text project-card-text">Here you'll find most noteworthy projects I've had the pleasure of bring to life
-                through clean, efficient, and scalable programming.</div>
-            </div>
-            <a class="button" href="./project-pages/game-programming.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-        </div>
+    
+          <!-- ABOUT SECTION -->
+          <!-- 
+            TODO
+    
+            - Change the subheader-text to whatever header you want
+            - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
           -->
-        <!-- <a class="button" href="https://beastiebaiter.itch.io/" style="align-self: center;">
-          <span class="button-text">More Games</span>
-          <image src="./assets/icons/itchio-textless-black.svg" class="right-arrow-icon"/>
-        </a> -->
-        <div class="project-page-card" data-tags="game-programming">
-            <div class="project-preview-collage">
-                <img src="assets/images/pigeon/PIGEON-Cover.png"/>
+          <div id="about-section">
+            <span class="subheader-text">About Me</span>
+            <div class="about-section-content">
+              <div class="body-text">
+                <p>I took a Bachelor's degree in Computer Science Engineering at <a href=”https://www.fct.unl.pt/”>NOVA School of Science and Technology | FCT NOVA</a>, and
+                I'm currently taking a master’s degree in Computer Science with specialization in video games at <a href=”https://tecnico.ulisboa.pt/pt/”>Instituto Superior de Técnico</a>.</p>
+                <p>I'm actively involved in the video game developer community, such as the youth association <a href="https://gamedev.tecnico.ulisboa.pt/">GameDev Técnico</a> (GDT),
+                where I’m part of the executive production team, where my duties entail finding, presenting,
+                and producing interesting game jams for the members and creating/managing the teams that participate in
+                those game jams.
+                <br>I’m also currently developing, <a href="">Our Will</a>, 
+                an indie story-driven turn-based RPG game, with the goal of launching it commercially. 
+                  For this game I’m working as the Combat Gameplay Designer and UI programmer.</p>
+              </div>
+              <div id="cv_btn_container" class="projects-container" style="align-self: center">
+                <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" style="align-self: center">
+                  <span class="button-text">Online CV</span>
+                </a>
+                <a class="button" href="/assets/Stuff/CV_João_Pamplona.pdf" download style="align-self: center">
+                  <span class="button-text">Download CV</span>
+                  <img src="./assets/icons/download.svg" class="right-arrow-icon" alt=""/>
+                </a>
+              </div>
             </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">P.I.G.E.O.N.</div>
-                <div class="body-text project-card-text">A interactive fiction game, where you play the role of a pigeon
-                    that is controlled by an oppressive,
-                    controlling government to spy on unaware civilians.
-                </div>
-                <div class="body-text project-card-text"><b>Company:</b> <a href="https://barkingbeaglestudios.com/">Barking
-                    Beagle Studios</a></div>
-                <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
-                <div class="body-text project-card-text"><b>Accolades:</b> First place winner, in the Games category of
-                    <a href="https://www.fnac.pt/novostalentos">NTF 25 - Novos Talentos Fnac 2025</a></div>
-                <div class="body-text project-card-text"><b>Team Size:</b> ~5</div>
-                <div class="body-text project-card-text"><b>Project Lenght:</b> ~2 weeks</div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Systems and UI/UX Programmer</div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
-                    Google Sheets and Docs
-                </div>
+          </div>
+    
+          <!-- PROJECTS / MY WORK SECTION -->
+    
+            
+          <div id="my-work-section" style="padding-top: 100px; margin-top: -100px;">
+            <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+            <span class="subheader-text" style="display: block;">My Work</span>
+            <!-- Filter Buttons -->
+            <div class="filter-container">
+                <button class="filter-button all-button active" data-filter="all">All Projects</button>
+                <button class="filter-button" data-filter="producing">Producing</button>
+                <button class="filter-button" data-filter="game-design">Game Design</button>
+                <button class="filter-button" data-filter="game-programming">Game Programming</button>
+                <button class="filter-button" data-filter="level-design">Level Design</button>
             </div>
-            <a class="button" href="../project-pages/project-template.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
-        </div>    
-        <div class="project-page-card" data-tags="game-design,game-programming">
-            <div class="project-preview-collage">
-                <img src="assets/images/twa/TWA-Cover.png"/>
+            <div class="projects-container" style="padding-bottom: 50px">
+              <!-- 
+                TODO
+    
+                This is where the project cards live. Here's a base level project card for you to copy:
+                <div class="project-card">
+                  <img src="./assets/images/IMAGE_NAME" class="project-image">
+                  <div class="project-card-text-container">
+                    <div class="subheader-text project-title">PROJECT_NAME</div>
+                    <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+                  </div>
+                  <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                    <span class="button-text">Read More</span>
+                    <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                  </a>
+                </div>
+    
+                - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+                    - IMAGE_NAME: the name of the image file in assets/images
+                    - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+                    - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+                    - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+                    
+              <div class="project-card">
+                <div class="project-preview-collage">
+                  <img src="./assets/images/twa/TWA-Cover.png"/>
+                  <img src="./assets/images/hpv/HPV-Cover.png"/>
+                  <img src="./assets/images/r4u/R4U-Cover.png"/>
+                  <img src="./assets/images/ow/OW-Cover.png"/>
+                  <img src="./assets/images/dnd/DND-Cover.png"/>
+                </div>
+                <div class="project-card-text-container">
+                  <div class="subheader-text project-title">Game Design</div>
+                  <div class="body-text project-card-text">
+                    Explore my work in game design, from crafting engaging mechanics and systems,
+                    to shaping worlds and player experiences.</div>
+                </div>
+                <a class="button" href="./project-pages/game-design.html">
+                  <span class="button-text">Read More</span>
+                  <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
+              </div>
+              <div class="project-card" >
+                <div class="project-preview-collage">
+                  <img src="./assets/images/pigeon/pigeon-Cover.png"/>
+                  <img src="./assets/images/twa/TWA-Cover.png"/>
+                  <img src="./assets/images/hpv/HPV-Cover.png"/>
+                  <img src="./assets/images/r4u/R4U-Cover.png"/>
+                </div>
+                <div class="project-card-text-container">
+                  <div class="subheader-text project-title">Game Programming</div>
+                  <div class="body-text project-card-text">Here you'll find most noteworthy projects I've had the pleasure of bring to life
+                    through clean, efficient, and scalable programming.</div>
+                </div>
+                <a class="button" href="./project-pages/game-programming.html">
+                  <span class="button-text">Read More</span>
+                  <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
+              </div>
             </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">The Wizards Apprentice</div>
-                <div class="body-text project-card-text">Action-Adventure game where you play as an alchemist wizard in
-                    a school of gifted apprentices,
-                    but you’re not one of them.
+              -->
+            <!-- <a class="button" href="https://beastiebaiter.itch.io/" style="align-self: center;">
+              <span class="button-text">More Games</span>
+              <image src="./assets/icons/itchio-textless-black.svg" class="right-arrow-icon"/>
+            </a> -->
+            <div class="project-page-card" data-tags="game-programming">
+                <div class="project-preview-collage">
+                    <img src="assets/images/pigeon/PIGEON-Cover.png" alt=""/>
                 </div>
-                <div class="body-text project-card-text"><b>Company:</b> <a href="https://barkingbeaglestudios.com/">Barking
-                    Beagle Studios</a></div>
-                <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
-                <div class="body-text project-card-text"><b>Team Size:</b> 4</div>
-                <div class="body-text project-card-text"><b>Project Lenght:</b> ~10 months</div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Quest, Combat and Gameplay
-                    Designer and Programmer
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">P.I.G.E.O.N.</div>
+                    <div class="body-text project-card-text">A interactive fiction game, where you play the role of a pigeon
+                        that is controlled by an oppressive,
+                        controlling government to spy on unaware civilians.
+                    </div>
+                    <div class="body-text project-card-text"><b>Company:</b> <a href="https://barkingbeaglestudios.com/">Barking
+                        Beagle Studios</a></div>
+                    <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
+                    <div class="body-text project-card-text"><b>Accolades:</b> First place winner, in the Games category of
+                        <a href="https://www.fnac.pt/novostalentos">NTF 25 - Novos Talentos Fnac 2025</a></div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> ~5</div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~2 weeks</div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Systems and UI/UX Programmer</div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
+                        Google Sheets and Docs
+                    </div>
                 </div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, Notion,
-                    Canva,Google Sheets and Docs
+                <a class="button" href="project-pages/project-template.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
+            </div>    
+            <div class="project-page-card" data-tags="game-design,game-programming">
+                <div class="project-preview-collage">
+                    <img src="assets/images/twa/TWA-Cover.png" alt=""/>
                 </div>
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">The Wizards Apprentice</div>
+                    <div class="body-text project-card-text">Action-Adventure game where you play as an alchemist wizard in
+                        a school of gifted apprentices,
+                        but you’re not one of them.
+                    </div>
+                    <div class="body-text project-card-text"><b>Company:</b> <a href="https://barkingbeaglestudios.com/">Barking
+                        Beagle Studios</a></div>
+                    <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> 4</div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~10 months</div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Quest, Combat and Gameplay
+                        Designer and Programmer
+                    </div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, Notion,
+                        Canva,Google Sheets and Docs
+                    </div>
+                </div>
+                <a class="button" href="project-pages/twa-page.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
             </div>
-            <a class="button" href="../project-pages/twa-page.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
+            <div class="project-page-card" data-tags="game-design,game-programming">
+                <div class="project-preview-collage">
+                    <img src="assets/images/hpv/HPV-Cover.png" alt=""/>
+                </div>
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">HPV: Combate Viral</div>
+                    <div class="body-text project-card-text">A card battler game where the player will be fighting the HPV
+                        virus against misinformation and infection,
+                        with the goal of raising awareness and educating teenage high-school students about HPV virus while
+                        providing a fun and educational experience.
+                    </div>
+                    <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
+                        Técnico</a> and
+                        <a href="https://www.ligacontracancro.pt/">LPCC - Portuguese League on the Fight Against Cancer</a>
+                    </div>
+                    <div class="body-text project-card-text"><b>Platforms:</b> PC, Android and Web</div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> 6</div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~5 months</div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Project Lead, Quest, Combat and
+                        Gameplay Designer and Lead Programmer
+                    </div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, Notion,
+                        Google Sheets, Slides and Docs
+                    </div>
+                </div>
+                <a class="button" href="project-pages/project-template.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
+            </div>
+            <div class="project-page-card" data-tags="game-design,game-programming">
+                <div class="project-preview-collage">
+                    <img src="assets/images/tk/TK-Cover.png" alt=""/>
+                </div>
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">Tavern Keeper</div>
+                    <div class="body-text project-card-text">Casual management game where you take the role of a tavern
+                        keeper,
+                        serving and forging relationships with adventurers and patrons alike, while guiding them through
+                        life.
+                    </div>
+                    <div class="body-text project-card-text"><b>Company:</b> <a href="https://barkingbeaglestudios.com/">Barking
+                        Beagle Studios</a></div>
+                    <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> 5</div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~5 months</div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Project Lead, Game Director, Quest
+                        and Gameplay Designer and Programmer
+                    </div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
+                        Google Sheets and Docs
+                    </div>
+                </div>
+                <a class="button" href="project-pages/project-template.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
+            </div>
+            <div class="project-page-card" data-tags="game-design,game-programming">
+                <div class="project-preview-collage">
+                    <img src="assets/images/r4u/R4U-Cover.png" alt=""/>
+                </div>
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">Rooting For You / Criar Raízes</div>
+                    <div class="body-text project-card-text">A narrative focused, Tamagotchi inspired
+                        game where players care for a sentient plant over time. The game centers around nurturing behaviors,
+                        talking to the plant, watering it, giving it sunlight, and fertilizing it, alongside light narrative
+                        progression
+                        and emotionally themed endings.
+                    </div>
+                    <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
+                        Técnico</a> / My Master's Thesis Project
+                    </div>
+                    <div class="body-text project-card-text"><b>Platforms:</b> PC and Web</div>
+                    <div class="body-text project-card-text"><b>Accolades:</b> Ranked 12th Overall in 173 submissions, <a
+                            href="https://itch.io/jam/gbjam-10">GBJam 10</a></div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> 4 / Self</div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~10 days / 1 year</div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Narrative and Game Designer and
+                        Programmer
+                    </div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Ink, Rider IDE, GitHub, Notion,
+                        Google Sheets and Docs
+                    </div>
+                </div>
+                <a class="button" href="project-pages/project-template.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
+            </div>
+            <div class="project-page-card" data-tags="game-design,game-programming">
+                <div class="project-preview-collage">
+                    <img src="assets/images/ow/OW-Cover.png" alt=""/>
+                </div>
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">Our Will</div>
+                    <div class="body-text project-card-text">A narrative focused game with turn-based combat, where you
+                        follow group of adventures on quest to a mystical land,
+                        set in norse mythology, in search of a cure to save their village.
+                    </div>
+                    <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
+                        Técnico</a></div>
+                    <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> ~8</div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> I contributed to the project during its
+                        first year of development but left the team before the project was completed.
+                    </div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Combat and Gameplay Designer and
+                        UI/UX Programmer
+                    </div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
+                        Google Sheets and Docs
+                    </div>
+                </div>
+                <a class="button" href="project-pages/project-template.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
+            </div>
+            <div class="project-page-card" data-tags="game-design">
+                <div class="project-preview-collage">
+                    <img src="assets/images/dnd/DND-Cover.png" alt=""/>
+                </div>
+                <div class="project-card-text-container">
+                    <div class="subheader-text project-title">TTRPGs / D&D</div>
+                    <div class="body-text project-card-text">My Homebrew TTRPG and D&D content that I've been actively
+                        developing for my games and campaigns since 2023.
+                    </div>
+                    <div class="body-text project-card-text"><b>Cursed as Forever DM:</b> 3 years (Ongoing)</div>
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Dungeon Master, Game, Narrative,
+                        Quest and Level Designer
+                    </div>
+                    <div class="body-text project-card-text"><b>Engine and Tools:</b>Obsidian, Notion, Google Sheets and
+                        Docs
+                    </div>
+                </div>
+                <a class="button" href="project-pages/project-template.html">
+                    <span class="button-text">Read More</span>
+                    <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
+                </a>
+            </div>
+          </div>
+          </div>
         </div>
-        <div class="project-page-card" data-tags="game-design,game-programming">
-            <div class="project-preview-collage">
-                <img src="assets/images/hpv/HPV-Cover.png"/>
-            </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">HPV: Combate Viral</div>
-                <div class="body-text project-card-text">A card battler game where the player will be fighting the HPV
-                    virus against misinformation and infection,
-                    with the goal of raising awareness and educating teenage high-school students about HPV virus while
-                    providing a fun and educational experience.
-                </div>
-                <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
-                    Técnico</a> and
-                    <a href="https://www.ligacontracancro.pt/">LPCC - Portuguese League on the Fight Against Cancer</a>
-                </div>
-                <div class="body-text project-card-text"><b>Platforms:</b> PC, Android and Web</div>
-                <div class="body-text project-card-text"><b>Team Size:</b> 6</div>
-                <div class="body-text project-card-text"><b>Project Lenght:</b> ~5 months</div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Project Lead, Quest, Combat and
-                    Gameplay Designer and Lead Programmer
-                </div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, Notion,
-                    Google Sheets, Slides and Docs
-                </div>
-            </div>
-            <a class="button" href="../project-pages/project-template.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
+    
+        <!-- FOOTER -->
+        <div id="footer">
+          <!-- 
+            TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+    
+            This should be the same across all pages.
+          -->
+          <a id="footer-itch-link" class="icon-link">
+            <img src="assets/icons/itchio-textless-black.svg" class="footer-icon" alt=""/>
+          </a>
+          <!--<a id="footer-instagram-link" class="icon-link" target="_blank" href="https://instagram.com/beastiebaiter?igshid=MzNlNGNkZWQ4Mg==">
+            <image src="assets/icons/instagram.svg" class="footer-icon"/>
+          </a>-->
+          <a id="footer-twitter-link" class="icon-link">
+            <img src="assets/icons/twitter.svg" class="footer-icon" alt=""/>
+          </a>
+          <a id="footer-linkedin-link" class="icon-link">
+            <img src="assets/icons/linkedin.svg" class="footer-icon" alt=""/>
+          </a>
+          <a id="footer-email-link" class="icon-link">
+            <img src="assets/icons/mail.svg" class="footer-icon" alt=""/>
+          </a>
         </div>
-        <div class="project-page-card" data-tags="game-design,game-programming">
-            <div class="project-preview-collage">
-                <img src="assets/images/tk/TK-Cover.png"/>
-            </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">Tavern Keeper</div>
-                <div class="body-text project-card-text">Casual management game where you take the role of a tavern
-                    keeper,
-                    serving and forging relationships with adventurers and patrons alike, while guiding them through
-                    life.
-                </div>
-                <div class="body-text project-card-text"><b>Company:</b> <a href="https://barkingbeaglestudios.com/">Barking
-                    Beagle Studios</a></div>
-                <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
-                <div class="body-text project-card-text"><b>Team Size:</b> 5</div>
-                <div class="body-text project-card-text"><b>Project Lenght:</b> ~5 months</div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Project Lead, Game Director, Quest
-                    and Gameplay Designer and Programmer
-                </div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
-                    Google Sheets and Docs
-                </div>
-            </div>
-            <a class="button" href="../project-pages/project-template.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
-        </div>
-        <div class="project-page-card" data-tags="game-design,game-programming">
-            <div class="project-preview-collage">
-                <img src="assets/images/r4u/R4U-Cover.png"/>
-            </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">Rooting For You / Criar Raízes</div>
-                <div class="body-text project-card-text">A narrative focused, Tamagotchi inspired
-                    game where players care for a sentient plant over time. The game centers around nurturing behaviors,
-                    talking to the plant, watering it, giving it sunlight, and fertilizing it, alongside light narrative
-                    progression
-                    and emotionally themed endings.
-                </div>
-                <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
-                    Técnico</a> / My Master's Thesis Project
-                </div>
-                <div class="body-text project-card-text"><b>Platforms:</b> PC and Web</div>
-                <div class="body-text project-card-text"><b>Accolades:</b> Ranked 12th Overall in 173 submissions, <a
-                        href="https://itch.io/jam/gbjam-10">GBJam 10</a></div>
-                <div class="body-text project-card-text"><b>Team Size:</b> 4 / Self</div>
-                <div class="body-text project-card-text"><b>Project Lenght:</b> ~10 days / 1 year</div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Narrative and Game Designer and
-                    Programmer
-                </div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Ink, Rider IDE, GitHub, Notion,
-                    Google Sheets and Docs
-                </div>
-            </div>
-            <a class="button" href="../project-pages/project-template.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
-        </div>
-        <div class="project-page-card" data-tags="game-design,game-programming">
-            <div class="project-preview-collage">
-                <img src="assets/images/ow/OW-Cover.png"/>
-            </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">Our Will</div>
-                <div class="body-text project-card-text">A narrative focused game with turn-based combat, where you
-                    follow group of adventures on quest to a mystical land,
-                    set in norse mythology, in search of a cure to save their village.
-                </div>
-                <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
-                    Técnico</a></div>
-                <div class="body-text project-card-text"><b>Platforms:</b> PC</div>
-                <div class="body-text project-card-text"><b>Team Size:</b> ~8</div>
-                <div class="body-text project-card-text"><b>Project Lenght:</b> I contributed to the project during its
-                    first year of development but left the team before the project was completed.
-                </div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Combat and Gameplay Designer and
-                    UI/UX Programmer
-                </div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
-                    Google Sheets and Docs
-                </div>
-            </div>
-            <a class="button" href="../project-pages/project-template.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
-        </div>
-        <div class="project-page-card" data-tags="game-design">
-            <div class="project-preview-collage">
-                <img src="assets/images/dnd/DND-Cover.png"/>
-            </div>
-            <div class="project-card-text-container">
-                <div class="subheader-text project-title">TTRPGs / D&D</div>
-                <div class="body-text project-card-text">My Homebrew TTRPG and D&D content that I've been actively
-                    developing for my games and campaigns since 2023.
-                </div>
-                <div class="body-text project-card-text"><b>Cursed as Forever DM:</b> 3 years (Ongoing)</div>
-                <div class="body-text project-card-text"><b>Key Responsibilities:</b> Dungeon Master, Game, Narrative,
-                    Quest and Level Designer
-                </div>
-                <div class="body-text project-card-text"><b>Engine and Tools:</b>Obsidian, Notion, Google Sheets and
-                    Docs
-                </div>
-            </div>
-            <a class="button" href="../project-pages/project-template.html">
-                <span class="button-text">Read More</span>
-                <image class="right-arrow-icon" src="assets/icons/arrow-right.svg"/>
-            </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
-      <a id="footer-itch-link" class="icon-link">
-        <image src="assets/icons/itchio-textless-black.svg" class="footer-icon"/>
-      </a>
-      <!--<a id="footer-instagram-link" class="icon-link" target="_blank" href="https://instagram.com/beastiebaiter?igshid=MzNlNGNkZWQ4Mg==">
-        <image src="assets/icons/instagram.svg" class="footer-icon"/>
-      </a>-->
-      <a id="footer-twitter-link" class="icon-link">
-        <image src="assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <a id="footer-linkedin-link" class="icon-link">
-        <image src="assets/icons/linkedin.svg" class="footer-icon"/>
-      </a>
-      <a id="footer-email-link" class="icon-link">
-        <image src="assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
 	</body>
 </html>
