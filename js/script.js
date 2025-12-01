@@ -6,10 +6,10 @@ if (document.getElementById('my-work-link')) {
 
 const EMAIL = "pamplona1999@gmail.com";
 const SOCIAL_LINKS = {
-    itch: "https://yourusername.itch.io/",
-    twitter: "https://twitter.com/yourhandle",
+    itch: "https://beastiebaiter.itch.io/",
+    twitter: "https://x.com/Beastie_baiterlink",
     instagram: "https://instagram.com/yourhandle",
-    linkedin: "https://linkedin.com/in/yourhandle"
+    linkedin: "www.linkedin.com/in/joão-pedro-pamplona-4a025a253"
 };
 
 document.addEventListener("DOMContentLoaded", () => {

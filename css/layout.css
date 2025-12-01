@@ -67,6 +67,19 @@ body {
     gap: 34px;
 }
 
+/* Filter Buttons Container */
+.filter-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 0 auto 32px;
+    padding: 20px;
+    background: #1a1d29;
+    border-radius: 12px;
+    border: 1px solid #332842;
+    max-width: fit-content;
+}
+
 .filter-button {
     padding: 10px 20px;
     background: #0e1117;
@@ -103,15 +116,15 @@ body {
 
 #my-work-section {
     display: flex;
-    gap: 34px 16px;
-    flex-wrap: wrap;
-    padding-bottom: 50px;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .projects-container {
     display: flex;
     gap: 34px 16px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 /* Project Cards */
