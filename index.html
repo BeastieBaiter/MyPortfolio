@@ -117,10 +117,24 @@
             <!-- Filter Buttons -->
             <div class="filter-container">
                 <button class="filter-button all-button active" data-filter="all">All Projects</button>
+                <button class="filter-button" data-filter="project-lead">Project Lead</button>
+                <button class="filter-button" data-filter="game-director">Game Director</button>
+                <button class="filter-button" data-filter="lead-programmer">Lead Programmer</button>
                 <button class="filter-button" data-filter="producing">Producing</button>
+                <button class="filter-button" data-filter="project-management">Project Management</button>
                 <button class="filter-button" data-filter="game-design">Game Design</button>
-                <button class="filter-button" data-filter="game-programming">Game Programming</button>
+                <button class="filter-button" data-filter="combat-design">Combat Design</button>
+                <button class="filter-button" data-filter="narrative-design">Narrative Design</button>
+                <button class="filter-button" data-filter="quest-design">Quest Design</button>
                 <button class="filter-button" data-filter="level-design">Level Design</button>
+                <button class="filter-button" data-filter="game-programming">Game Programming</button>
+                <button class="filter-button" data-filter="systems-programming">Systems Programming</button>
+                <button class="filter-button" data-filter="ui-programming">UI/UX Programming</button>
+                <button class="filter-button" data-filter="unity-2d">Unity 2D</button>
+                <button class="filter-button" data-filter="unity-3d">Unity 3D</button>
+                <button class="filter-button" data-filter="mobile">Mobile</button>
+                <button class="filter-button" data-filter="desktop">Desktop</button>
+                <button class="filter-button" data-filter="browser">Browser</button>
             </div>
             <div class="projects-container" style="padding-bottom: 50px">
               <!-- 
@@ -187,7 +201,7 @@
               <span class="button-text">More Games</span>
               <image src="./assets/icons/itchio-textless-black.svg" class="right-arrow-icon"/>
             </a> -->
-            <div class="project-page-card" data-tags="game-programming">
+            <div class="project-page-card" data-tags="game-programming,desktop,browser,project-management,ui-programming,unity-2d,systems-programming">
                 <div class="project-preview-collage">
                     <img src="assets/images/pigeon/PIGEON-Cover.png" alt=""/>
                 </div>
@@ -208,13 +222,15 @@
                     <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, ClickUp,
                         Google Sheets and Docs
                     </div>
+                    <div class="body-text project-card-text"><b>Game link:</b> <a href="https://barking-beagle-studios.itch.io/pigeon">Itch.io</a>
+                    </div>
                 </div>
                 <a class="button" href="project-pages/project-template.html">
                     <span class="button-text">Read More</span>
                     <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
                 </a>
             </div>    
-            <div class="project-page-card" data-tags="game-design,game-programming">
+            <div class="project-page-card" data-tags="game-design,combat-design,quest-design,game-programming,producing,project-management,unity-3d,desktop">
                 <div class="project-preview-collage">
                     <img src="assets/images/twa/TWA-Cover.png" alt=""/>
                 </div>
@@ -241,7 +257,7 @@
                     <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
                 </a>
             </div>
-            <div class="project-page-card" data-tags="game-design,game-programming">
+            <div class="project-page-card" data-tags="project-lead,producing,combat-design,lead-programmer,ui-programming,game-design,game-programming,unity-2d,desktop,mobile,browser">
                 <div class="project-preview-collage">
                     <img src="assets/images/hpv/HPV-Cover.png" alt=""/>
                 </div>
@@ -259,19 +275,20 @@
                     <div class="body-text project-card-text"><b>Platforms:</b> PC, Android and Web</div>
                     <div class="body-text project-card-text"><b>Team Size:</b> 6</div>
                     <div class="body-text project-card-text"><b>Project Lenght:</b> ~5 months</div>
-                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Project Lead, Quest, Combat and
+                    <div class="body-text project-card-text"><b>Key Responsibilities:</b> Project Lead, Combat and
                         Gameplay Designer and Lead Programmer
                     </div>
                     <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Rider IDE, GitHub, Notion,
                         Google Sheets, Slides and Docs
                     </div>
+                    <div class="body-text project-card-text"><b>Game link:</b> <a href="https://play.google.com/store/apps/details?id=com.GameDevTecnico.HPVCombateViral&hl=pt_PT">PlayStore</a></div>
                 </div>
                 <a class="button" href="project-pages/project-template.html">
                     <span class="button-text">Read More</span>
                     <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
                 </a>
             </div>
-            <div class="project-page-card" data-tags="game-design,game-programming">
+            <div class="project-page-card" data-tags="project-lead,project-management,game-director,quest-design,game-design,game-programming,ui-programming,systems-programming,unity-2d,desktop">
                 <div class="project-preview-collage">
                     <img src="assets/images/tk/TK-Cover.png" alt=""/>
                 </div>
@@ -299,12 +316,12 @@
                     <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
                 </a>
             </div>
-            <div class="project-page-card" data-tags="game-design,game-programming">
+            <div class="project-page-card" data-tags="narrative-design,game-design,game-programming,unity-2d,desktop,browser">
                 <div class="project-preview-collage">
                     <img src="assets/images/r4u/R4U-Cover.png" alt=""/>
                 </div>
                 <div class="project-card-text-container">
-                    <div class="subheader-text project-title">Rooting For You / Criar Raízes</div>
+                    <div class="subheader-text project-title">Rooting For You</div>
                     <div class="body-text project-card-text">A narrative focused, Tamagotchi inspired
                         game where players care for a sentient plant over time. The game centers around nurturing behaviors,
                         talking to the plant, watering it, giving it sunlight, and fertilizing it, alongside light narrative
@@ -312,26 +329,27 @@
                         and emotionally themed endings.
                     </div>
                     <div class="body-text project-card-text"><b>Company:</b> <a href="https://gamedev.tecnico.ulisboa.pt">GameDev
-                        Técnico</a> / My Master's Thesis Project
+                        Técnico</a>
                     </div>
                     <div class="body-text project-card-text"><b>Platforms:</b> PC and Web</div>
                     <div class="body-text project-card-text"><b>Accolades:</b> Ranked 12th Overall in 173 submissions, <a
                             href="https://itch.io/jam/gbjam-10">GBJam 10</a></div>
-                    <div class="body-text project-card-text"><b>Team Size:</b> 4 / Self</div>
-                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~10 days / 1 year</div>
+                    <div class="body-text project-card-text"><b>Team Size:</b> 4 </div>
+                    <div class="body-text project-card-text"><b>Project Lenght:</b> ~10 days </div>
                     <div class="body-text project-card-text"><b>Key Responsibilities:</b> Narrative and Game Designer and
                         Programmer
                     </div>
                     <div class="body-text project-card-text"><b>Engine and Tools:</b> Unity, Ink, Rider IDE, GitHub, Notion,
                         Google Sheets and Docs
                     </div>
+                    <div class="body-text project-card-text"><b>Game link:</b> <a href="https://karane.itch.io/im-rooting-for-you">Itch.io</a></div>
                 </div>
                 <a class="button" href="project-pages/project-template.html">
                     <span class="button-text">Read More</span>
                     <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
                 </a>
             </div>
-            <div class="project-page-card" data-tags="game-design,game-programming">
+            <div class="project-page-card" data-tags="combat-design,game-design,ui-programming,game-programming,unity-2d,desktop">
                 <div class="project-preview-collage">
                     <img src="assets/images/ow/OW-Cover.png" alt=""/>
                 </div>
@@ -360,7 +378,7 @@
                     <img class="right-arrow-icon" src="assets/icons/arrow-right.svg" alt=""/>
                 </a>
             </div>
-            <div class="project-page-card" data-tags="game-design">
+            <div class="project-page-card" data-tags="producing,project-management,narrative-design,combat-design,quest-design,level-design,game-design">
                 <div class="project-preview-collage">
                     <img src="assets/images/dnd/DND-Cover.png" alt=""/>
                 </div>
@@ -393,7 +411,7 @@
                         <div class="skill-card-title">Game Engines and Programming Tools</div>
                         <table class="skills-table">
                             <tr>
-                                <td>Unity (2D, 3D, UI, Gameplay, Audio, AI, Physics)</td>
+                                <td>Unity (2D, 3D, UI, Gameplay, Audio, AI, Physics, Camera)</td>
                                 <td>5 years</td>
                             </tr>
                             <tr>
@@ -403,6 +421,22 @@
                             <tr>
                                 <td>Unreal 5 (3D, Gameplay)</td>
                                 <td>1 year</td>
+                            </tr>
+                            <tr>
+                                <td>Git/GitHub</td>
+                                <td>6 years</td>
+                            </tr>
+                            <tr>
+                                <td>JetBrains Tools (Rider, IntelliJ, Android Studio)</td>
+                                <td>7 years</td>
+                            </tr>
+                            <tr>
+                                <td>Visual Studio and Visual Studio Code</td>
+                                <td>3 years</td>
+                            </tr>
+                            <tr>
+                                <td>Eclipse IDE</td>
+                                <td>3 years</td>
                             </tr>
                         </table>
                     </div>
@@ -502,23 +536,23 @@
                         <table class="skills-table">
                             <tr>
                                 <td>Team Leadership</td>
-                                <td>✓</td>
+                                <td>Lead 2 commercial projects, and multiple personal projects</td>
                             </tr>
                             <tr>
                                 <td>Project Management</td>
-                                <td>✓</td>
+                                <td>Managed 3 commercial projects</td>
                             </tr>
                             <tr>
                                 <td>Adaptability</td>
-                                <td>✓</td>
+                                <td>Across 20 projects, filled in roles like marketing, voice acting, and many others</td>
                             </tr>
                             <tr>
                                 <td>Creativity</td>
-                                <td>✓</td>
+                                <td>Designed and shipped 20 games across jams, personal, and commercial projects</td>
                             </tr>
                             <tr>
                                 <td>Problem-Solving</td>
-                                <td>✓</td>
+                                <td>Engineered solutions for gameplay, technical, and production challenges</td>
                             </tr>
                         </table>
                     </div>

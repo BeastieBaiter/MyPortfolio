@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42921e43-810b-4639-bd49-bce49b292753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$APPLICATION_HOME_DIR$/lib/modules/intellij.relaxng.jar!/resources/html5-schema/html5/block.rnc" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -58,6 +62,8 @@
       <workItem from="1755874553534" duration="4413000" />
       <workItem from="1764347472898" duration="5716000" />
       <workItem from="1764677211031" duration="866000" />
+      <workItem from="1764687705466" duration="3715000" />
+      <workItem from="1764761866935" duration="950000" />
     </task>
     <servers />
   </component>
