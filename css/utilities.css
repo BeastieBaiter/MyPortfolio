@@ -37,6 +37,7 @@ a.icon-link:hover {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 .nav-title-link {

@@ -155,6 +155,7 @@ body {
     box-shadow: 0 8px 24px rgba(143, 114, 232, 0.2);
     border-color: #8f72e8;
     background: #21242f;
+    z-index: 10;
 }
 
 .project-page-card {
@@ -178,6 +179,7 @@ body {
     box-shadow: 0 8px 24px rgba(143, 114, 232, 0.2);
     border-color: #8f72e8;
     background: #21242f;
+    z-index: 10;
 }
 
 /* Skills Container */
@@ -360,6 +362,7 @@ body {
     padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
     height: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 .video-container iframe {
@@ -368,6 +371,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 /* Project Gallery */
