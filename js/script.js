@@ -9,7 +9,7 @@ const SOCIAL_LINKS = {
     itch: "https://beastiebaiter.itch.io/",
     twitter: "https://x.com/Beastie_baiter",
     instagram: "https://instagram.com/yourhandle",
-    linkedin: "www.linkedin.com/in/joão-pedro-pamplona-4a025a253"
+    linkedin: "https://www.linkedin.com/in/joão-pedro-pamplona-4a025a253"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
