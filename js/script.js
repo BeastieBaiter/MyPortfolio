@@ -4,6 +4,12 @@ if (document.getElementById('my-work-link')) {
     })
 }
 
+if (document.getElementById('my-skills-link')) {
+    document.getElementById('my-skills-link').addEventListener('click', () => {
+        document.getElementById('my-skills-section').scrollIntoView({behavior: "smooth"})
+    })
+}
+
 const EMAIL = "pamplona1999@gmail.com";
 const SOCIAL_LINKS = {
     itch: "https://beastiebaiter.itch.io/",

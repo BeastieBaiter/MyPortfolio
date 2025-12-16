@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42921e43-810b-4639-bd49-bce49b292753" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_2.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_2.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_3.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_3.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_4.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_4.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_5.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_5.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_6.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_6.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_7.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_7.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/Combat Grams/Action_Point_Combat_8.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Stuff/OW - Combat Grams/Action_Point_Combat_8.drawio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/profile_pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Stuff/w3t6Xc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-pages/pigeon-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-pages/pigeon-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-pages/twa-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-pages/twa-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42921e43-810b-4639-bd49-bce49b292753" name="Changes" comment="" />
@@ -78,6 +68,8 @@
       <workItem from="1764761866935" duration="950000" />
       <workItem from="1764845890119" duration="6827000" />
       <workItem from="1765796193596" duration="10682000" />
+      <workItem from="1765899667498" duration="271000" />
+      <workItem from="1765900359554" duration="1073000" />
     </task>
     <servers />
   </component>
