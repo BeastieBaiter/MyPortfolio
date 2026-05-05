@@ -119,21 +119,11 @@
                     The <strong>Cooking System</strong> is built around a multi-layered ingredient property
                     framework. Every ingredient carries up to three properties: a Flavor Profile, a Rarity
                     tier, and a Buff Type. And the player's task is to combine ingredients in ways that
-                    satisfy customer requests and improve adventurers' chances of success on quests. Flavor
-                    Profiles span six categories (Savory, Sour, Sweet, Spicy, Bitter, Umami) and are
-                    visualised through a hexagonal radar graph that communicates meal composition at a glance.
-                    Rarity tiers (Common, Uncommon, Rare, Legendary) determine acquisition difficulty,
-                    restock behaviour, buff strength, and how many buff types an ingredient can provide.
-                    Buff Types, including Hearty, Energizing, Hot, Cold, Lucky, Antidote, and Inspiring,
-                    each interact with specific quest types and regions, creating a strategic layer where
-                    the player must think ahead about which adventurers are going where and prepare
-                    accordingly. Meal quality is calculated from three factors: how precisely the flavor
-                    profile matches the request, the rarity of the ingredients used, and whether the
-                    requested buff types were met. Producing a 0 to 5 star rating that directly determines
-                    customer tips and quest success rates. I also designed a Cooking Skill Tree that allows
+                    satisfy customer requests and improve adventurers' chances of success on quests. 
+                    I also designed a Cooking Skill Tree that allows
                     players to specialise into cuisine masteries such as Master Baker, Grill Guru, Spice
-                    Connoisseur, and Regional Specialist, each offering passive and active abilities that
-                    reward focused playstyles.
+                    Connoisseur, and Regional Specialist, each offering passive and active abilities that would've
+                    rewarded focused playstyles.
                 </p>
             </div>
                 <div class="video-container">
@@ -163,11 +153,28 @@
                     rather than optional.
                 </p>
                 <p>
-                    On the programming side, I implemented the core systems that bring the design to life
-                    in Unity — including the cooking and ingredient logic, quest generation and outcome
-                    resolution, and supporting gameplay systems — working closely with the rest of the
-                    team to iterate on feel and balance throughout development.
+                    On the programming side, I implemented the data management scripts and some of the
+                    technical implementation of the design. A notable contribution was a custom Unity
+                    Editor script that enables Dictionary data to be serialised, visualised, and edited
+                    directly in the Unity Inspector, something Unity does not support natively. This removed
+                    a significant friction point from the team's workflow, allowing designers to view and
+                    modify data structures in-editor without needing to touch code, considerably speeding
+                    up iteration and balancing across the project.
                 </p>
+            </div>
+            <div class="skills-container">
+                <div class="gallery-image-container">
+                    <img class="gallery-image" src="../assets/images/tk/Dictionary%20-%20Code%201.jpg" alt="Tavern Keeper - Serializable Dictionary Code 1">
+                    <span class="image-caption">Code sample of the Serializable Dictionary</span>
+                </div>
+                <div class="gallery-image-container">
+                    <img class="gallery-image" src="../assets/images/tk/Dictionary%20-%20Code%202.jpg" alt="Tavern Keeper - Serializable Dictionary Code 2">
+                    <span class="image-caption">Code sample of the Serializable Dictionary</span>
+                </div>
+            </div>
+            <div style="align-self: center; width: 50%;">
+                <img class="gallery-image" src="../assets/images/tk/Dictionary%20-%20Editor.jpg" alt="Tavern Keeper - Serializable Dictionary Editor">
+                <span class="image-caption">In Unity editor screenshot of the Serializable Dictionary</span>
             </div>
         </div>
     </div>
