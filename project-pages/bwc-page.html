@@ -103,7 +103,7 @@
                     behaviour to match the tense, atmospheric tone of the game.
                 </p>
                 <p>
-                    A key technical highlight of my work on this project was the PlayerBorders system — a runtime component that dynamically positions a ring of invisible
+                    A key technical highlight of my work on this project was the PlayerBorders system, a runtime component that dynamically positions a ring of invisible
                     collider walls around the player character using raycasting. Rather than relying on manually placed geometry to prevent the player from falling off
                     ledges or getting stuck in unintended areas, the system automatically detects ledge boundaries in all directions by firing downward raycasts at
                     configurable test intervals. Each border collider is then precisely repositioned frame-by-frame at the detected ledge edge, accounting for the
@@ -117,7 +117,7 @@
             <div class="body-text">
                 <p>
                     This removed a significant content production bottleneck: designers and artists could build large, open, visually complex spaces without needing to
-                    hand-place invisible walls around every ledge — the system handled it automatically. It also included built-in Editor debug tooling, with toggleable
+                    hand-place invisible walls around every ledge, the system handled it automatically. It also included built-in Editor debug tooling, with toggleable
                     colour-coded raycast visualisation to assist during development and QA.
                 </p>
             </div>
